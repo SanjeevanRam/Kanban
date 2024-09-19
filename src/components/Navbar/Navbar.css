@@ -1,0 +1,52 @@
+nav {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  background-color: white;
+  box-shadow: 0 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+nav > h5 {
+  margin: 0;
+  padding: 0.2rem;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: gray;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+nav > h5 > span {
+  text-align: center;
+}
+
+.sort-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0.25rem;
+  width: fit-content;
+  position: absolute;
+  top: 4.5rem;
+  left: 1rem;
+  background-color: white;
+  transition: transform 0.3s ease-in-out 0.2ms;
+}
+
+.sort-input {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  color: gray;
+}
+
+.sort-hide {
+  transform: translateX(-150%);
+}
